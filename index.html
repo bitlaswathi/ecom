@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+</head>
+<body>
+    <header id="header">
+        <a href="#"><img src="https://raw.githubusercontent.com/tech2etc/Build-and-Deploy-Ecommerce-Website/7bf0a6a00c79e37d97a953ed62f47197cd567ed3/img/logo.png" alt="" srcset=""></a>
+        
+            <nav class="navbar">
+                <li ><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+
+            </nav>
+            <div class="hamburger" onclick="toggleMenu()">
+                &#9776; <!-- Hamburger icon -->
+            </div>
+        
+    </header>
+    <section id="hero">
+        <h4>Trade-in-offer</h4>
+        <h2>Super Value deals</h2>
+        <h1>On all products</h1>
+        <p>Save more with coupons & up to 70% off! </p>
+        <button>Shop Now</button>
+    </section>
+    <section id="feature" class="section-p1">
+        <div class="fe-box"><img src="https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/features/f1.png?raw=true">
+            <h6>free Shipping</h6>
+        </div>
+        <div class="fe-box"><img src="https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/features/f2.png?raw=true">
+            <h6 class="h2">Online Order</h6>
+        </div>
+        <div class="fe-box"><img src="https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/features/f3.png?raw=true">
+            <h6 class="h3">Save-money</h6>
+        </div>
+        <div class="fe-box"><img src="https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/features/f4.png?raw=true">
+            <h6 class="h4">Promotions</h6>
+        </div>
+        
+        <div class="fe-box"><img src="https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/features/f6.png?raw=true">
+            <h6 class="h6">24/7 Support</h6>
+        </div>
+    </section>
+   
+    <section id="shop">
+        <div class="shopsy">
+            <h2>#Stayhome</h2>
+            <p>Save more with coupons & up to 70% off!</p> 
+            
+
+        </div>
+        <h2>Featured Products</h2>
+            <p>Summer Collection New Modern Design</p>
+      
+       <div class="pro-container">
+        
+           <div class="pro" onclick="window.location.href= 'prode.html'">
+               <img src="https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/products/f1.jpg?raw=true">
+               <div class="desc">
+                   <span>adidas</span>
+                   <h5>Cartoon Astronut T-shirt</h5>
+                   <div class="star">
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                   </div>
+                   <h4>$78</h4>
+
+               </div>
+               <a href="#"><i class="fal fa-shopping-cart"></i></a>
+           </div>
+           <div class="pro">
+               <img src="https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/products/f2.jpg?raw=true">
+               <div class="desc">
+                   <span>adidas</span>
+                   <h5>Cartoon Astronut T-shirt</h5>
+                   <div class="star">
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                   </div>
+                   <h4>$78</h4>
+
+               </div>
+               <a href="#"><i class="fal fa-shopping-cart"></i></a>
+           </div>
+           <div class="pro">
+               <img src="https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/products/f3.jpg?raw=true">
+               <div class="desc">
+                   <span>adidas</span>
+                   <h5>Cartoon Astronut T-shirt</h5>
+                   <div class="star">
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                   </div>
+                   <h4>$78</h4>
+                  
+
+               </div>
+               <a href="#" onclick="addToCart('f1', 'Cartoon Astronaut T-shirt', 78)"><i class="fal fa-shopping-cart"></i></a>
+              
+           </div>
+           <div class="pro">
+               <img src="https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/products/f4.jpg?raw=true">
+               <div class="desc">
+                   <span>adidas</span>
+                   <h5>Cartoon Astronut T-shirt</h5>
+                   <div class="star">
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                   </div>
+                   <h4>$78</h4>
+
+               </div>
+               <a href="#" onclick="addToCart('f1', 'Cartoon Astronaut T-shirt', 78)"><i class="fal fa-shopping-cart"></i></a>
+           </div>
+           <div class="pro">
+               <img src="https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/products/f5.jpg?raw=true">
+               <div class="desc">
+                   <span>adidas</span>
+                   <h5>Cartoon Astronut T-shirt</h5>
+                   <div class="star">
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                   </div>
+                   <h4>$78</h4>
+
+               </div>
+               <a href="#" onclick="addToCart('f1', 'Cartoon Astronaut T-shirt', 78)"><i class="fal fa-shopping-cart"></i></a>
+           </div>
+           <div class="pro">
+               <img src="https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/products/f6.jpg?raw=true">
+               <div class="desc">
+                   <span>adidas</span>
+                   <h5>Cartoon Astronut T-shirt</h5>
+                   <div class="star">
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                   </div>
+                   <h4>$78</h4>
+
+               </div>
+               <a href="#" onclick="addToCart('f1', 'Cartoon Astronaut T-shirt', 78)"><i class="fal fa-shopping-cart"></i></a>
+           </div>
+           <div class="pro">
+               <img src="https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/products/f7.jpg?raw=true">
+               <div class="desc">
+                   <span>adidas</span>
+                   <h5>Cartoon Astronut T-shirt</h5>
+                   <div class="star">
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                   </div>
+                   <h4>$78</h4>
+
+               </div>
+               <a href="#"><i class="fal fa-shopping-cart"></i></a>
+           </div>
+           <div class="pro">
+               <img src="https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/products/f8.jpg?raw=true">
+               <div class="desc">
+                   <span>adidas</span>
+                   <h5>Cartoon Astronut T-shirt</h5>
+                   <div class="star">
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                   </div>
+                   <h4>$78</h4>
+
+               </div>
+               <a href="#" onclick="addToCart('f1', 'Cartoon Astronaut T-shirt', 78)"><i class="fal fa-shopping-cart"></i></a>
+           </div>
+       </div>
+       
+</section>
+<section id="blog">
+    <div class="bloo">
+        <h2>#readmore</h2>
+        <p>Read all case studies about our Products!</p> 
+    </div>
+    <div class="container">
+        
+        <div class="blog-post">
+            <div class="left">
+                <img src="https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/blog/b1.jpg?raw=true">
+            </div>
+            <div class="desc">
+                <h2>The Cotton Jersey</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt facere amet quisquam facilis, obcaecati sed beatae ex. Maiores, cupiditate veritatis aspernatur esse ipsam, numquam, 
+                dolore deserunt mollitia obcaecati laboriosam quas.</p>
+                <a href="">Continue Reading</a>
+            </div>
+        </div>
+        
+        <!-- Repeat the blog-post div for each image and description -->
+        
+       
+        <div class="blog-post">
+            <div class="left">
+                <img src="https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/blog/b2.jpg?raw=true">
+            </div>
+            <div class="desc">
+                <h2>The Cotton Jersey</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt facere amet quisquam facilis, obcaecati sed beatae ex. Maiores, cupiditate veritatis aspernatur esse ipsam, numquam, 
+                dolore deserunt mollitia obcaecati laboriosam quas.</p>
+                <a href="">Continue Reading</a>
+            </div>
+        </div>
+        <div class="blog-post">
+            <div class="left">
+                <img src="https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/blog/b3.jpg?raw=true">
+            </div>
+            <div class="desc">
+                <h2>The Cotton Jersey</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt facere amet quisquam facilis, obcaecati sed beatae ex. Maiores, cupiditate veritatis aspernatur esse ipsam, numquam, 
+                dolore deserunt mollitia obcaecati laboriosam quas.</p>
+                <a href="">Continue Reading</a>
+            </div>
+        </div>
+        <div class="blog-post">
+            <div class="left">
+                <img src="https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/blog/b4.jpg?raw=true">
+            </div>
+            <div class="desc">
+                <h2>The Cotton Jersey</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt facere amet quisquam facilis, obcaecati sed beatae ex. Maiores, cupiditate veritatis aspernatur esse ipsam, numquam, 
+                dolore deserunt mollitia obcaecati laboriosam quas.</p>
+                <a href="">Continue Reading</a>
+            </div>
+        </div>
+        <div class="blog-post">
+            <div class="left">
+                <img src="https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/blog/b5.jpg?raw=true">
+            </div>
+            <div class="desc">
+                <h2>The Cotton Jersey</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt facere amet quisquam facilis, obcaecati sed beatae ex. Maiores, cupiditate veritatis aspernatur esse ipsam, numquam, 
+                dolore deserunt mollitia obcaecati laboriosam quas.</p>
+                <a href="">Continue Reading</a>
+            </div>
+        </div>
+        <div class="blog-post">
+            <div class="left">
+                <img src="https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/blog/b6.jpg?raw=true">
+            </div>
+            <div class="desc">
+                <h2>The Cotton Jersey</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt facere amet quisquam facilis, obcaecati sed beatae ex. Maiores, cupiditate veritatis aspernatur esse ipsam, numquam, 
+                dolore deserunt mollitia obcaecati laboriosam quas.</p>
+                <a href="">Continue Reading</a>
+            </div>
+        </div>
+        <div class="blog-post">
+            <div class="left">
+                <img src="https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/blog/b7.jpg?raw=true">
+            </div>
+            <div class="desc">
+                <h2>The Cotton Jersey</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt facere amet quisquam facilis, obcaecati sed beatae ex. Maiores, cupiditate veritatis aspernatur esse ipsam, numquam, 
+                dolore deserunt mollitia obcaecati laboriosam quas.</p>
+                <a href="">Continue Reading</a>
+            </div>
+        </div>
+        
+        <!-- Continue adding more blog-post sections as needed -->
+
+    </div>
+</section>
+ <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="abt-content">
+            <h2>#Know Us</h2>
+            <p>Welcome to YourShop, your go-to destination for all your shopping needs. Our mission is to deliver high-quality products that make life easier, more stylish, and more fun!</p>
+        </div>
+        <div class="mission">
+            <h3>Our Mission</h3>
+            <p>At YourShop, we believe in bringing the best products to your doorstep, focusing on quality, convenience, and style. We’re here to redefine your shopping experience!</p>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team-section">
+        <h3>Meet Our Team</h3>
+        <div class="team-members">
+            <div class="team-member">
+                <img src="https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/people/1.png?raw=true" alt="Team Member">
+                <h4>Jane Doe</h4>
+                <p>Founder & CEO</p>
+            </div>
+            <div class="team-member">
+                <img src="https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/people/2.png?raw=true" alt="Team Member">
+                <h4>John Smith</h4>
+                <p>Head of Marketing</p>
+            </div>
+            <div class="team-member">
+                <img src="https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website/blob/main/img/people/3.png?raw=true" alt="Team Member">
+                <h4>Alizehaa</h4>
+                <p>Product Manager</p>
+            </div>
+        </div>
+    </section>
+     <!-- Contact Section -->
+     <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>We would love to hear from you! Fill out the form below, or reach out through our contact details.</p>
+        
+        <div class="contact-container">
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+
+            <!-- Contact Details -->
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p><i class="fas fa-map-marker-alt"></i>#3-36, Near Uppal Bus Stand, Hanumasai Nagar, Laxma Reddy Colony, Uppal Secunderabad Telangana 500039 IN</p>
+                <p><i class="fas fa-envelope"></i> support@yourshop.com</p>
+                <p><i class="fas fa-phone"></i> +1-234-567-890</p>
+
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Google Maps Embed -->
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.4745915146063!2d144.95605431520202!3d-37.81627757975166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f2f7cb0b%3A0x5045675218cee17!2zMTIzNCBTdHJlZXQsIENpdHksIENvdW50cnk=!5e0!3m2!1sen!2s!4v1601366747636!5m2!1sen!2s" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+    <section id="footer">
+        <p>&copy; 2023 YourShop. All Rights Reserved.</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </section>
+<script>
+     function toggleMenu() {
+            const navbar = document.querySelector('.navbar');
+            navbar.classList.toggle('active');
+        }
+    </script>
+   
+
+  
+</body>
+</html>
